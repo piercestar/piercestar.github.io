@@ -1,8 +1,16 @@
+@charset "utf-8";
+
 ul,
 ol,
 dl {
     padding: 0;
     margin: 0;
+}
+
+body {
+    font: 18px/1.8 Lato;
+    background-color: #42413C;
+    color: #000;
 }
 
 h1,
@@ -26,10 +34,13 @@ p {
     padding-left: 15px;
 }
 
-body {
-    font: 18px/1.8 Lato;
-    background-color: #42413C;
-    color: #000;
+a img {
+    border: none;
+}
+
+a:link,
+a:visited {
+    color: #0B486B;
 }
 
 .container-fluid {
@@ -43,11 +54,27 @@ body {
     background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
 }
 
+header {
+    background-color: #fff;
+    background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
+    overflow: hidden;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 62px;
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+}
+
 
 nav {
     clear: left;
-    float: left;
-    width: 100%;
+    float : left;
+    width:100%;
 }
 
 nav ul {
@@ -72,8 +99,8 @@ nav ul a:hover,
 nav ul a:active,
 nav ul a:focus {
     background-color: #666;
+    width: 100%;
     color: #FFF;
-    width:100%;
 }
 
 article {
@@ -90,6 +117,12 @@ article h2 {
     font-size: 24px;
     margin-bottom: 0;
     color: #06b0c9;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #666;
+    padding: 10px 0;
 }
 
 aside h1 {
@@ -130,7 +163,7 @@ footer {
 
 .rotate-img img {
     transform: rotate(-11deg);
-    width: 80%;
+    width: 100%;
     padding: 10%;
 }
 
@@ -138,3 +171,4 @@ footer {
     padding: 0 !important;
     margin: 0 !important;
 }
+
