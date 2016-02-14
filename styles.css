@@ -153,6 +153,11 @@ section {
     color: white;
 }
 
+.fancybox-title {
+    font: 18px/1.6 lato;
+    text-align: center;
+}
+
 footer {
     padding: 10px 0;
     background-color: #42413C;
