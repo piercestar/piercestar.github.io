@@ -51,12 +51,12 @@ a:visited {
 #wrapper {
     margin: 0 auto;
     max-width: 960px;
-    background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png");
 }
 
 header {
     background-color: #fff;
-    background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png');
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png");
     overflow: hidden;
 }
 
@@ -135,8 +135,8 @@ section {
 
 .promise-container {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background: url('images/circle.jpg');
     background-size: 175px 175px;
     background-repeat: no-repeat;
@@ -151,6 +151,10 @@ section {
     justify-content: center;
     flex-direction: row;
     color: white;
+}
+
+img {
+    width: 100%;
 }
 
 .fancybox-title {
